@@ -1,0 +1,18 @@
+
+@mixin telefono {                                       //el conten es porque el media queri no puede estar vacio
+    @media screen and (min-width: #{$telefono}){
+        @content;                                        
+    }
+}
+
+@mixin tablet {                                       
+    @media screen and (max-width: #{$tablet}){
+        @content;                                        
+    }
+}
+
+@mixin desktop {                                      
+    @media screen and (min-width: #{$desktop}){
+        @content;                                       
+    }
+}

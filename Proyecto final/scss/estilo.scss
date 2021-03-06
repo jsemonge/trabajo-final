@@ -1,0 +1,88 @@
+@import 'variables';
+@import 'mixin';
+
+
+@font-face {
+    font-family: 'amove';
+    src: url(../fuente/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+  }
+
+
+body{
+    font-family: 'amove';
+    
+}
+
+
+.cab{
+background: linear-gradient($azul-primero, $negri);
+
+}
+
+.navegador{
+    background-color: $azul-primero;
+    
+}
+
+.navegador a{
+    margin-left: 2%;
+    
+}
+
+.portada{
+
+    background-image: url(../img/portada22.jpg);
+    background-size: cover;
+   height: 370px;
+   background-position: center;
+    background-repeat: no-repeat;
+   
+    border-radius: 5px;
+
+}
+
+.text-column{
+    column-count:3;
+
+    @include tablet{  
+        margin-top: 5%;
+        column-count:1;
+    }
+
+
+    p#uno::first-letter {
+       font-size: 1.5em;
+    }
+
+}
+
+.hom{
+    width: 100%;
+}
+
+.img-pie{
+    width: 100%;
+
+    @include tablet{  
+        width: 20%;
+    }
+
+
+}
+
+.img-piedos{
+
+    width: 40%;
+
+    @include tablet{  
+        width: 10%;
+    }
+
+}
+
+// .navbar{
+//     width: 100%;
+// }
+
+
+

@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/estilo.scss","../scss/_variables.scss","../scss/_mixin.scss"],"names":[],"mappings":"AAIA;EACI;EACA;;AAIJ;EACI;;;AAKJ;EACA;;;AAIA;EACI,kBCtBW;;;AD0Bf;EACI;;;AAIJ;EAEI;EACA;EACD;EACA;EACC;EAEA;;;AAIJ;EACI;;AEpCA;EFmCJ;IAIQ;IACA;;;AAIJ;EACG;;;AAKP;EACI;;;AAGJ;EACI;;AEvDA;EFsDJ;IAIQ;;;;AAMR;EAEI;;AElEA;EFgEJ;IAKQ","file":"estilo.css"}

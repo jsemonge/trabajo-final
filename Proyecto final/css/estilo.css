@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "amove";
+  src: url(../fuente/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+body {
+  font-family: "amove";
+}
+
+.cab {
+  background: linear-gradient(#2C4E73, #181B1F);
+}
+
+.navegador {
+  background-color: #2C4E73;
+}
+
+.navegador a {
+  margin-left: 2%;
+}
+
+.portada {
+  background-image: url(../img/portada22.jpg);
+  background-size: cover;
+  height: 370px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.text-column {
+  column-count: 3;
+}
+@media screen and (max-width: 768px) {
+  .text-column {
+    margin-top: 5%;
+    column-count: 1;
+  }
+}
+.text-column p#uno::first-letter {
+  font-size: 1.5em;
+}
+
+.hom {
+  width: 100%;
+}
+
+.img-pie {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .img-pie {
+    width: 20%;
+  }
+}
+
+.img-piedos {
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .img-piedos {
+    width: 10%;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
